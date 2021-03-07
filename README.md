@@ -13,9 +13,7 @@ Group Project - README
 ### Description
 Students are able to create and join chatrooms. Students can communicate in these chatrooms and talk amongst themselves about courses, life, etc.
 
-Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/NXpw0Xpefh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -32,22 +30,14 @@ Here's a walkthrough of implemented user stories:
 
 **Required Must-have Stories**
 
-- [x] User stays logged in across restarts. 
-- [x] User can sign up.
-- [x] User can log in. 
-- [x] User can log out. 
-- [x] User can join a chat room.
-- [x] User can talk in a chat room.
-
+- [x] User Story 1
+- [x] User Story 2
+- [x] User Story 3
+- 
+- 
 **Optional Nice-to-have Stories**
 
-- [x] Pull data directly from UCI schedule of courses using Alamofire and SwiftSoup
-- [x] User can search for a chat room
-- [x] User can remove chatroom
-- [x] User can filter by department when searching for course
-- [x] Load messages from button-up in chatroom
-- [x] Display pop-up when user adds courses
-- [] User can send media (images).
+- **None**
 
 ### 2. Screen Archetypes
 
@@ -63,13 +53,9 @@ Here's a walkthrough of implemented user stories:
 
 **Tab Navigation** (Tab to Screen)
 
-* [No tabs]
 
 **Flow Navigation** (Screen to Screen)
 
-* [Home Screen]
-   * [Search for a room]
-   * [Talk in a room]
 
 
   
@@ -78,28 +64,11 @@ Here's a walkthrough of implemented user stories:
 
 
 
-### [BONUS] Digital Wireframes & Mockups
-<img src="http://g.recordit.co/oLgfYQBhqa.gif" width=600>
+
 
 ### Models
 Chatroom
-|   Property    |      Type     | Description |
-| ------------- | ------------- | ------------|
-| roomId  | String | unique id of the chatoom |
-| creator | String | original creator of the chatroom |
-| createdAt | DateTime | date when the chatroom is created |
-| updatedAt | DateTime | date when the most recent message is sent |
-| numParticipants | Number | the number of participants in a chatroom |
-| numMessages | Number | the number of messages in a chatroom |
+
 
 ### Networking
-1. Chatroom Dashboard
-  - (Read/GET) View user's active chatrooms
-  - (Delete) Delete a chatroom currently participating in
-2. Join a Chatroom
-  - (Read/GET) Join an active chatroom hosted by ChatUCI
-3. Create a Chatroom
-  - (Create/POST) Create a new chatroom for others to join
-4. Participate in a Chatroom
-  - (Create/POST) Create a new message in the chatroom
-  - (Update/PUT) Update the chatroom with new messages
+
